@@ -65,7 +65,7 @@ Entity A	Relationship	Entity B	Cardinality
 User	hosts	Property	1:N (one user can host many properties)
 
 ER diagram
-The image can be found in ERD/erd.png
+The image can be found in ERD/airbnb_erd.png
 User	makes	Booking	1:N (one user can make many bookings)
 Property	is booked in	Booking	1:N (one property can appear in many bookings)
 Booking	has	Payment	1:1 (each booking has one payment)
